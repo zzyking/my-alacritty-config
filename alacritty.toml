@@ -1,0 +1,23 @@
+[window]
+opacity = 0.9
+padding.x = 10
+padding.y = 10
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[terminal.shell]
+program = "/usr/bin/fish"
+
+[font]
+normal.family = "DejaVu Sans Mono"
+bold.family = "DejaVu Sans Mono"
+italic.family = "DejaVu Sans Mono"
+bold_italic.family = "DejaVu Sans Mono"
+offset = {x=0, y=3}
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/tokyo_night.toml"
+]
+
+[terminal]
